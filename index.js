@@ -64,6 +64,7 @@ app.post('/api/puny', async (req, res) => {
         let sys_url = "http://" + process.env.DOMAIN_NAME + "/" + obj.name
         let exists = await urls.findOneByUrl(obj.url);
         if (exists) {
+            sys_url = "http://" + process.env.DOMAIN_NAME + "/" + exists.name
             res.status(200);
             return res.json({
                 isJoi: true,
