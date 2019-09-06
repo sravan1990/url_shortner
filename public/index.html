@@ -14,11 +14,11 @@
         <div class="container">
             <a href="/">
                 <h1 class="title">
-                    puny.li
+                    URL Shortner
                 </h1>
             </a>
             <h2 class="subtitle">
-                Shortening URLs since 2018
+                Slice and dice them.
             </h2>
         </div>
     </div>
@@ -35,26 +35,25 @@
             <div class="field-body">
                 <div class="field">
                     <p class="control">
-                        <input v-model="url" class="input is-large" type="text" placeholder="http://example.com"
-                               required>
+                        <input v-model="url" class="input is-large" type="text" placeholder="http://example.com" required>
                     </p>
                 </div>
             </div>
         </div>
         <div class="field is-horizontal">
             <div class="field-label is-normal">
-                <label class="label">puny.li/</label>
+                <label class="label">short code</label>
             </div>
             <div class="field-body">
                 <div class="field">
                     <p class="control">
-                        <input v-model="name" class="input is-large" type="text" placeholder="super-catchy" required>
+                        <input v-model="name" class="input is-large" type="text" placeholder="catch phrase" required>
                     </p>
                 </div>
             </div>
         </div>
         <div class="puny-button">
-            <button type="submit" class="button is-large is-success">Punify</button>
+            <button type="submit" class="button is-large is-success">Slice it!</button>
         </div>
     </form>
     <h1 v-if="success" class="title is-1" style="text-align: center"><a :href="'/' + name"
