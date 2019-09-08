@@ -5,7 +5,7 @@ A simple full stack app for creating short urls like bit.ly
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/oscarnevarezleal/basic-url-shortener)
 
 
-puny.li/cg
+URL Shortner
 
 * [x] Create Server Folder
   * [x] Init npm
@@ -42,5 +42,5 @@ puny.li/cg
 
 ## Stretch
 
-* [ ] Date/Time
-* [ ] View link page to see number of clicks
+* [x] Date/Time
+* [x] View link page to see number of clicks
