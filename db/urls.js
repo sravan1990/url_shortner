@@ -3,6 +3,9 @@ const db = require('./connection');
 
 const urls = db.get('urls');
 
+/**
+ * 
+ */
 const schema = Joi.object().keys({
     name: Joi.string().token().min(1).max(6).required(),
     views: Joi.number(),

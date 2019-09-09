@@ -1,0 +1,164 @@
+(node:14001) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Using env: {"parsed":{"PORT":"5000","DOMAIN_NAME":"techtonic.today","MONGODB_URI":"mongodb://sravan:lUrbWpKyUhncpmc1@cluster0-shard-00-00-fcznu.mongodb.net:27017,cluster0-shard-00-01-fcznu.mongodb.net:27017,cluster0-shard-00-02-fcznu.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority"}}
+listening on port 5000
+GET /new/stats 200 1077 - 240.533 ms
+GET /new/style.css 404 152 - 1.747 ms
+GET /new/main.js 404 150 - 0.438 ms
+GET /new/main.js 404 150 - 0.470 ms
+GET /new/hello 404 148 - 0.588 ms
+GET /hello/stats 200 1081 - 222.218 ms
+GET /hello/style.css 404 154 - 0.473 ms
+GET /hello/main.js 404 152 - 0.354 ms
+GET /hello/main.js 404 152 - 0.431 ms
+GET / 304 - - 1.673 ms
+GET /js/main.js 304 - - 0.397 ms
+GET /css/style.css 304 - - 0.210 ms
+Finding -> { name: 'hello',
+  url: 'https://codeforgeek.com/mongodb-atlas-node-js/' }
+POST /api/puny 500 62 - 461.781 ms
+GET /hello/stats 304 - - 221.173 ms
+GET /hello/style.css 404 154 - 0.447 ms
+GET /hello/main.js 404 152 - 0.532 ms
+GET /favicon.ico - - - - ms
+GET /hello/stats 200 1081 - 227.908 ms
+GET /hello/style.css 404 154 - 0.472 ms
+GET /hello/main.js 404 152 - 0.448 ms
+GET /favicon.ico 302 48 - 227.628 ms
+GET /404.html?name=favicon.ico 200 1029 - 2.054 ms
+GET /hello/stats 304 - - 227.637 ms
+GET /hello/style.css 404 154 - 1.292 ms
+GET /hello/main.js 404 152 - 0.773 ms
+GET /favicon.ico 302 48 - 227.361 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.552 ms
+GET /hello/stats 304 - - 227.382 ms
+GET /hello/style.css 404 154 - 0.431 ms
+GET /hello/main.js 404 152 - 0.421 ms
+GET /favicon.ico 302 48 - 227.400 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.448 ms
+GET /hello/stats 304 - - 227.398 ms
+GET /hello/style.css 404 154 - 0.468 ms
+GET /hello/main.js 404 152 - 0.370 ms
+GET /favicon.ico 302 48 - 227.341 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.441 ms
+GET /hello/stats 304 - - 227.528 ms
+GET /hello/main.js 404 152 - 0.447 ms
+GET /hello/style.css 404 154 - 0.367 ms
+GET /hello/main.js 404 152 - 0.430 ms
+GET /favicon.ico 302 48 - 227.217 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.438 ms
+GET /hello/stats 304 - - 227.500 ms
+GET /hello/style.css 404 154 - 0.456 ms
+GET /hello/main.js 404 152 - 0.358 ms
+GET /hello/main.js 404 152 - 0.469 ms
+GET /favicon.ico - - - - ms
+GET / 304 - - 0.388 ms
+GET /js/main.js 304 - - 0.275 ms
+GET /css/style.css 304 - - 0.192 ms
+Finding -> { name: 'stack',
+  url:
+   'https://stackoverflow.com/questions/4797050/how-to-run-node-js-as-a-background-process-and-never-die' }
+(node:14001) DeprecationWarning: collection.insert is deprecated. Use insertOne, insertMany or bulkWrite instead.
+POST /api/puny 200 246 - 694.224 ms
+GET /stack 302 244 - 459.583 ms
+GET /stack/stats 200 1081 - 227.612 ms
+GET /stack/style.css 404 154 - 0.481 ms
+GET /stack/main.js 404 152 - 0.408 ms
+(node:14066) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Using env: {"parsed":{"PORT":"5000","DOMAIN_NAME":"techtonic.today:5000","MONGODB_URI":"mongodb://sravan:lUrbWpKyUhncpmc1@cluster0-shard-00-00-fcznu.mongodb.net:27017,cluster0-shard-00-01-fcznu.mongodb.net:27017,cluster0-shard-00-02-fcznu.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority"}}
+listening on port 5000
+GET /hello/stats 200 1086 - 264.199 ms
+GET /hello/style.css 404 154 - 1.711 ms
+GET /hello/main.js 404 152 - 0.542 ms
+GET /favicon.ico 302 48 - 235.601 ms
+GET /404.html?name=favicon.ico 200 1029 - 2.634 ms
+GET /hello 302 162 - 472.480 ms
+GET /hello/stats 200 1086 - 232.885 ms
+GET /hello/style.css 404 154 - 0.482 ms
+GET /hello/main.js 404 152 - 0.324 ms
+GET /favicon.ico 302 48 - 227.420 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.560 ms
+GET /hello/stats 304 - - 232.794 ms
+GET /hello/style.css 404 154 - 0.489 ms
+GET /hello/main.js 404 152 - 0.384 ms
+GET /favicon.ico 302 48 - 227.478 ms
+GET /hello/stats 304 - - 232.535 ms
+GET /hello/main.js 404 152 - 0.482 ms
+GET /hello/style.css 404 154 - 0.372 ms
+GET /hello/main.js 404 152 - 0.463 ms
+GET /favicon.ico 302 48 - 227.482 ms
+GET /hello/stats 304 - - 232.459 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.427 ms
+GET /hello/style.css 404 154 - 0.458 ms
+GET /hello/main.js 404 152 - 0.536 ms
+GET /favicon.ico 302 48 - 227.538 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.427 ms
+(node:14086) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Using env: {"parsed":{"PORT":"5000","DOMAIN_NAME":"techtonic.today:5000","MONGODB_URI":"mongodb://sravan:lUrbWpKyUhncpmc1@cluster0-shard-00-00-fcznu.mongodb.net:27017,cluster0-shard-00-01-fcznu.mongodb.net:27017,cluster0-shard-00-02-fcznu.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority"}}
+listening on port 5000
+GET /hello/stats 200 1091 - 252.159 ms
+GET /hello/style.css 404 154 - 1.753 ms
+GET /hello/main.js 404 152 - 0.469 ms
+GET /favicon.ico 302 48 - 230.946 ms
+GET /404.html?name=favicon.ico 200 1029 - 2.628 ms
+GET /hello/stats 304 - - 229.274 ms
+GET /hello/style.css 404 154 - 0.669 ms
+GET /hello/main.js 404 152 - 0.476 ms
+GET /favicon.ico 302 48 - 227.898 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.689 ms
+GET /stack/stats 200 1091 - 228.253 ms
+GET /stack/style.css 404 154 - 0.488 ms
+GET /stack/main.js 404 152 - 0.370 ms
+GET /stack/main.js 404 152 - 0.445 ms
+GET /favicon.ico - - - - ms
+GET /stack 302 244 - 475.895 ms
+GET /stack/stats 200 1091 - 227.883 ms
+GET /stack/style.css 404 154 - 0.503 ms
+GET /stack/main.js 404 152 - 0.441 ms
+GET /stack/main.js 404 152 - 0.531 ms
+GET /favicon.ico - - - - ms
+GET /stack/stats 304 - - 227.847 ms
+GET /stack/style.css 404 154 - 0.460 ms
+GET /stack/main.js 404 152 - 0.331 ms
+GET /stack/main.js 404 152 - 0.494 ms
+GET / 200 2368 - 0.945 ms
+GET /js/main.js 304 - - 0.622 ms
+GET /css/style.css 200 89 - 0.375 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.488 ms
+Finding -> { name: 'consolejb',
+  url:
+   'https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#Instances:sort=instanceId' }
+POST /api/puny 500 427 - 243.225 ms
+Finding -> { name: 'console',
+  url:
+   'https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#Instances:sort=instanceId' }
+POST /api/puny 500 423 - 229.015 ms
+Finding -> { name: 'consol',
+  url:
+   'https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#Instances:sort=instanceId' }
+(node:14086) DeprecationWarning: collection.insert is deprecated. Use insertOne, insertMany or bulkWrite instead.
+POST /api/puny 200 258 - 694.939 ms
+GET /consol 302 254 - 457.856 ms
+GET /consol/stats 200 1093 - 228.203 ms
+GET /consol/style.css 404 155 - 0.462 ms
+GET /consol/main.js 404 153 - 0.434 ms
+GET /consol/main.js 404 153 - 0.473 ms
+GET /consol 302 254 - 457.619 ms
+GET / 200 2368 - 0.518 ms
+GET /css/style.css 200 89 - 0.516 ms
+GET /js/main.js 304 - - 0.275 ms
+GET /favicon.ico 302 48 - 227.547 ms
+GET /404.html?name=favicon.ico 200 1029 - 0.456 ms
+Finding -> { name: 'auto',
+  url:
+   'https://automattic.github.io/monk/docs/GETTING_STARTED.html' }
+POST /api/puny 200 260 - 228.183 ms
+Finding -> { name: 'auto', url: 'https://automattic.github.io/monk/docs' }
+POST /api/puny 200 187 - 685.507 ms
+GET / 304 - - 0.315 ms
+GET /css/style.css 200 89 - 0.442 ms
+GET /js/main.js 304 - - 0.282 ms
+GET /favicon.ico - - - - ms
+GET /404.html?name=favicon.ico 200 1029 - 0.359 ms
+GET / 304 - - 0.273 ms
+GET /css/style.css 304 - - 0.290 ms
+GET /js/main.js 304 - - 0.207 ms
