@@ -22,7 +22,7 @@ techtonic.today
   * [x] Create route to add url to db `/api/url`
     * [x] validate puny with joi
       * url
-      * name alphanum, min 1 chars, max 100 chars
+      * name alphanum, min 1 chars, max 6 chars
     * [x] Make sure name is not in use
       * [x] insert url into db
       * [x] respond with inserted message
